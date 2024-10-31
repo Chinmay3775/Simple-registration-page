@@ -1,28 +1,34 @@
 # Simple Registration Page
 
-This project is a simple registration page designed using HTML and Bootstrap. It allows users to register by entering their personal details, including first name, last name, gender, email, password, and phone number.
+![GitHub repo size](https://img.shields.io/github/repo-size/chinmay3775/Simple-registration-page) ![GitHub issues](https://img.shields.io/github/issues/chinmay3775/Simple-registration-page) ![GitHub stars](https://img.shields.io/github/stars/chinmay3775/Simple-registration-page?style=social)
+
+A simple and responsive registration form built with HTML, CSS, and PHP, styled using Bootstrap. This project includes a backend script for user registration via MySQL.
+
+## Table of Contents
+- [Live Demo](#live-demo)
+- [Important Note](#important-note)
+- [Features](#features)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Author](#author)
 
 ## Live Demo
+The live preview of this page is available here:
+[Simple Registration Page Demo](https://chinmay3775.github.io/Simple-registration-page/registration.html)
 
-You can view the registration page live [here](https://chinmay3775.github.io/Simple-registration-page/registration.html).
+## Important Note
+The registration functionality on this page **will not work** in the live demo, as the PHP code requires a connection to a database hosted locally on the developer's laptop. For security reasons, the database is not publicly accessible.
 
 ## Features
+- **Responsive Design**: Utilizes Bootstrap for a mobile-friendly interface.
+- **User Registration**: Simple PHP script for registering users with validation.
+- **Secure Password Handling**: Implements password hashing for security.
+- **User-Friendly Error Messages**: Clear feedback for registration issues.
 
-- User-friendly interface with responsive design.
-- Bootstrap for styling and layout.
-- Form validation for required fields.
-- Gender selection using radio buttons.
+## Installation
+To run this project on your local machine with full functionality, follow these steps:
 
-## Technologies Used
-
-- HTML5
-- CSS (Bootstrap)
-- PHP (for form processing, not included in this repository)
-
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/chinmay3775/Simple-registration-page.git
