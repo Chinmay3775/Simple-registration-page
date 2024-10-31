@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+</head>
+<body>
+    <div class="container vh-100">
+        <div class="row justify-content-center h-100">
+            <div class="card w-35 my-auto shadow">
+                <div class="card-header text-center bg-primary ">
+                    <h1>Registration Form</h1>
+                </div>
+                <div class="card-body">
+                    <form action="connect.php" method="post">
+                        <div class="form-group">
+                            <label for="FN">First Name</label>
+                            <input type="text" class="form-control" id="FN" name="firstName" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="LN">Last Name</label>
+                            <input type="text" class="form-control" id="LN" name="lastName" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Gender</label>
+                                <div>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="male" required> Male
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="female"> Female
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="other"> Other
+                                    </label>
+                                </div>
+                            </div>
+                        <div class="form-group">
+                            <label for="em">Email</label>
+                            <input type="email" class="form-control" id="em" name="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="pw">Password</label>
+                            <input type="password" class="form-control" id="pw" name="password" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="ph">Phone Number</label>
+                            <input type="tel" class="form-control" id="ph" name="phone" required />
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Register">
+                    </form>
+                </div>
+                <div class="card-footer text-right">
+                    <small>&copy; Chinmay Keripale</small>
+                    <br>
+                    <a href="login.html">Already have an Account? </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
